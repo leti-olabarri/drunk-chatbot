@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 import streamlit as st
 from config import API_URI
 
