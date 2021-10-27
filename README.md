@@ -20,46 +20,85 @@ El modelo se entrenó con el dataset arriba mencionado. El entrenamiento se comp
 
 Los resultados, con un único entrenamiento y ese dataset, son bastante mejorables. Dejo aquí un extracto de algo del texto generado al azar.
 
-`[ME] 👍🏼👍🏼👍🏼👍🏼
-[ME] ¡Ánimo, Marta!
-[ME] ¿Estás en casa?
-[OTHERS] Ajajjajjajjajaj
-[OTHERS] Siii
-[OTHERS] Ya estoy
-[ME] Jajajajajajajaja
-[ME] Hoy estoy
-[ME] Marta, he ido a Misa en la farmacia, pero no me preocupen tener que ser en el grupo de secretaría
-[ME] Pero voy a intentar comprar una cerveza
-[ME] La verdad es que no me compraría ningún backlogado
-[ME] Marta, tengo que ir a comprarme unos días para la cerveza
-[OTHERS] 😂😂😂😂
-[OTHERS] Muy bien
-[OTHERS] Jajajajajajajaj
-[ME] 🤣🤣🤣🤣🤣🤣
-[OTHERS] Ya me he hecho unos días
-[OTHERS] Muy bien
-[ME] Ok
-[ME] ¿Cómo te encuentras?
-[OTHERS] En el grupo de secretaría
-[OTHERS] Pues eso te digo
-[ME] ¡Estamos en el grupo!
-[OTHERS] Es una amiga de mi madre que tenía que hacerte fenomenal que van a mandar agosto
-[OTHERS] En el grupo sentido
-[OTHERS] Es para mí
-[OTHERS] Que eso que he visto que en el grupo me encuentro
-[ME] Vale, sí
-[ME] ¿Qué tal has visto a César?
-[OTHERS] Aún no me entiende, que me he costado mucho
-[OTHERS] 🙏🏽🙏🏽🙏🏽🙏🏽🙏
-[ME] 👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼
-[ME] Pues entonces no te preocupen
-[ME] ¿En serio te has mandado?
-[ME] Porque mañana no sé cuánto, pero empezaron a entender que me había metido en el mundo
-[OTHERS] Siii
-[OTHERS] Te lo has hecho ya??
-[ME] Lo he hecho es por la mañana
-[ME] Pero puedes aprovechadrar a Ana han cambiado el caso y he estado en el grupo de secretaría, porque me puedo quejar
-[OTHERS] Me ha dicho que ha sido a mi cambio y también`
+`[ME] 👍🏼👍🏼👍🏼👍🏼` 
+
+`[ME] ¡Ánimo, Marta!` 
+
+`[ME] ¿Estás en casa?`  
+
+`[OTHERS] Ajajjajjajjajaj`  
+
+`[OTHERS] Siii`  
+
+`[OTHERS] Ya estoy`  
+
+`[ME] Jajajajajajajaja`  
+
+`[ME] Hoy estoy`  
+
+`[ME] Marta, he ido a Misa en la farmacia, pero no me preocupen tener que ser en el grupo de secretaría`  
+
+`[ME] Pero voy a intentar comprar una cerveza`  
+
+`[ME] La verdad es que no me compraría ningún backlogado`  
+
+`[ME] Marta, tengo que ir a comprarme unos días para la cerveza`  
+
+`[OTHERS] 😂😂😂😂`  
+
+`[OTHERS] Muy bien`  
+
+`[OTHERS] Jajajajajajajaj`  
+
+`[ME] 🤣🤣🤣🤣🤣🤣`  
+
+`[OTHERS] Ya me he hecho unos días`  
+
+`[OTHERS] Muy bien`  
+
+`[ME] Ok`  
+
+`[ME] ¿Cómo te encuentras?`  
+
+`[OTHERS] En el grupo de secretaría`  
+
+`[OTHERS] Pues eso te digo`  
+
+`[ME] ¡Estamos en el grupo!`  
+
+`[OTHERS] Es una amiga de mi madre que tenía que hacerte fenomenal que van a mandar agosto`  
+
+`[OTHERS] En el grupo sentido`  
+
+`[OTHERS] Es para mí`  
+
+`[OTHERS] Que eso que he visto que en el grupo me encuentro`  
+
+`[ME] Vale, sí`  
+
+`[ME] ¿Qué tal has visto a César?`  
+
+`[OTHERS] Aún no me entiende, que me he costado mucho`  
+
+`[OTHERS] 🙏🏽🙏🏽🙏🏽🙏🏽🙏`  
+
+`[ME] 👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼`  
+
+`[ME] Pues entonces no te preocupen`  
+
+`[ME] ¿En serio te has mandado?`  
+
+`[ME] Porque mañana no sé cuánto, pero empezaron a entender que me había metido en el mundo`  
+
+`[OTHERS] Siii`  
+
+`[OTHERS] Te lo has hecho ya??`  
+
+`[ME] Lo he hecho es por la mañana`  
+
+`[ME] Pero puedes aprovechadrar a Ana han cambiado el caso y he estado en el grupo de secretaría, porque me puedo quejar`  
+
+`[OTHERS] Me ha dicho que ha sido a mi cambio y también`
 
 Como se ve, en función de los parámetros que se le pasen al modelo, se puede generar más o menos cantidad de texto, partiendo de un breve inicio. De primeras, el resultado es muy malo. Sin embargo, se pueden sacar algunas conclusiones:
 
