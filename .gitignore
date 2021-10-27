@@ -132,3 +132,4 @@ dmypy.json
 .DS_Store
 src/checkpoint
 models/models
+models/checkpoint
