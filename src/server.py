@@ -1,6 +1,7 @@
 from app import app
 import os
 import controllers.chat_controller
+import controllers.message_controller
 
 PORT = int(os.environ.get('PORT', 5000))
 
